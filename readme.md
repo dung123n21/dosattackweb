@@ -1,9 +1,9 @@
 
 # DOS Attack Web (Demo)
 
-Repo này cung cấp hướng dẫn cách build và chạy một chương trình kiểm thử tải (load testing) trên môi trường Linux.  
-**Chỉ dùng cho mục đích kiểm thử server hợp pháp – tuyệt đối không sử dụng vào các mục đích trái pháp luật.**
+Repo này cung cấp hướng dẫn cách build và chạy một chương trình kiểm thử tải (load testing) trên môi trường Linux.
 **discord: https://discord.gg/WGBUtqvM**
+**Chỉ dùng cho mục đích kiểm thử server hợp pháp – tuyệt đối không sử dụng vào các mục đích trái pháp luật.**
 
 ---
 
