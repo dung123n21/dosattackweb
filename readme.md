@@ -3,7 +3,7 @@
 
 Repo này cung cấp hướng dẫn cách build và chạy một chương trình kiểm thử tải (load testing) trên môi trường Linux.  
 **Chỉ dùng cho mục đích kiểm thử server hợp pháp – tuyệt đối không sử dụng vào các mục đích trái pháp luật.**
-
+discord: https://discord.gg/WGBUtqvM
 ---
 
 ## 1. Clone repository
