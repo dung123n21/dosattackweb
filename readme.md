@@ -13,7 +13,7 @@ cd dosattackweb
 
 ---
 
-###2. Cài đặt các gói cần thiết
+-**2. Cài đặt các gói cần thiết**
 
 sudo apt update && sudo apt install -y \
   build-essential \
@@ -29,7 +29,7 @@ sudo apt update && sudo apt install -y \
 
 ---
 
-##3. Build
+-**3. Build**
 
 gcc hello.c -o attack \
   -I/usr/include/nghttp2 \
@@ -39,12 +39,12 @@ gcc hello.c -o attack \
 
 ---
 
-##4. Run
+-**4. Run**
 
 ./attack [url]
 
 ---
 
-## ví dụ
+-** ví dụ**
 
 ./attack https://example.com
