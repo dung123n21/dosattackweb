@@ -7,6 +7,7 @@ Repo này cung cấp hướng dẫn cách build và chạy một chương trình
 
 ## 1. Clone repository
 
+```bash
 git clone https://github.com/dung123n21/dosattackweb.git
 cd dosattackweb
 
