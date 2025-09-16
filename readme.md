@@ -27,6 +27,7 @@ sudo apt update && sudo apt install -y \
 
 ##3. Build
 
+```bash
 gcc hello.c -o attack \
   -I/usr/include/nghttp2 \
   -L/usr/lib/x86_64-linux-gnu \
@@ -36,6 +37,7 @@ gcc hello.c -o attack \
 
 ##4. Run
 
+```bash
 ./attack [url]
 
 ## ví dụ
