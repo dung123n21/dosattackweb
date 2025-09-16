@@ -7,13 +7,11 @@ Repo này cung cấp hướng dẫn cách build và chạy một chương trình
 
 ## 1. Clone repository
 
-```bash
 git clone https://github.com/dung123n21/dosattackweb.git
 cd dosattackweb
 
 ##2. Cài đặt các gói cần thiết
 
-```bash
 sudo apt update && sudo apt install -y \
   build-essential \
   gcc \
@@ -28,7 +26,6 @@ sudo apt update && sudo apt install -y \
 
 ##3. Build
 
-``bash
 gcc hello.c -o attack \
   -I/usr/include/nghttp2 \
   -L/usr/lib/x86_64-linux-gnu \
@@ -38,7 +35,6 @@ gcc hello.c -o attack \
 
 ##4. Run
 
-```bash
 ./attack [url]
 
 ## ví dụ
