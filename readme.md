@@ -11,10 +11,9 @@ Repo này cung cấp hướng dẫn cách build và chạy một chương trình
 git clone https://github.com/dung123n21/dosattackweb.git
 cd dosattackweb
 
----
+- **2. Cài đặt các gói cần thiết**
 
--**2. Cài đặt các gói cần thiết**
-
+```bash
 sudo apt update && sudo apt install -y \
   build-essential \
   gcc \
@@ -26,10 +25,9 @@ sudo apt update && sudo apt install -y \
   libpthread-stubs0-dev \
   wget \
   curl
+```
 
----
-
--**3. Build**
+- **3. Build**
 
 gcc hello.c -o attack \
   -I/usr/include/nghttp2 \
