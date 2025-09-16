@@ -11,6 +11,7 @@ Repo này cung cấp hướng dẫn cách build và chạy một chương trình
 git clone https://github.com/dung123n21/dosattackweb.git
 cd dosattackweb
 
+---
 ##2. Cài đặt các gói cần thiết
 
 sudo apt update && sudo apt install -y \
@@ -25,6 +26,7 @@ sudo apt update && sudo apt install -y \
   wget \
   curl
 
+---
 ##3. Build
 
 gcc hello.c -o attack \
@@ -33,10 +35,12 @@ gcc hello.c -o attack \
   -lnghttp2 -lssl -lcrypto -lpthread \
   -Wno-format-truncation
 
+---
 ##4. Run
 
 ./attack [url]
 
+---
 ## ví dụ
 
 ./attack https://example.com
