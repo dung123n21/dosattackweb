@@ -13,7 +13,6 @@ cd dosattackweb
 
 ##2. Cài đặt các gói cần thiết
 
-```bash
 sudo apt update && sudo apt install -y \
   build-essential \
   gcc \
@@ -28,20 +27,16 @@ sudo apt update && sudo apt install -y \
 
 ##3. Build
 
-```bash
 gcc hello.c -o attack \
   -I/usr/include/nghttp2 \
   -L/usr/lib/x86_64-linux-gnu \
   -lnghttp2 -lssl -lcrypto -lpthread \
   -Wno-format-truncation
 
-
 ##4. Run
 
-```bash
 ./attack [url]
 
 ## ví dụ
 
-```bash 
 ./attack https://example.com
