@@ -29,7 +29,7 @@ sudo apt update && sudo apt install -y   build-essential   gcc   g++   make   li
 ## 3. Build chương trình
 
 ```bash
-gcc hello.c -o attack   -I/usr/include/nghttp2   -L/usr/lib/x86_64-linux-gnu   -lnghttp2 -lssl -lcrypto -lpthread   -Wno-format-truncation
+gcc attack.c -o attack   -I/usr/include/nghttp2   -L/usr/lib/x86_64-linux-gnu   -lnghttp2 -lssl -lcrypto -lpthread   -Wno-format-truncation
 ```
 
 ---
