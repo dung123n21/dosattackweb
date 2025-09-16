@@ -12,6 +12,7 @@ cd dosattackweb
 
 ##2. Cài đặt các gói cần thiết
 
+```bash
 sudo apt update && sudo apt install -y \
   build-essential \
   gcc \
