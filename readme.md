@@ -11,7 +11,7 @@ Repo này cung cấp hướng dẫn cách build và chạy một chương trình
 git clone https://github.com/dung123n21/dosattackweb.git
 cd dosattackweb
 
-- **2. Cài đặt các gói cần thiết**
+-**2. Cài đặt các gói cần thiết**
 
 ```bash
 sudo apt update && sudo apt install -y \
